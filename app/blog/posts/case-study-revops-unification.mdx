@@ -1,0 +1,219 @@
+---
+title: "How We Unified CRM, Support, and Marketing Data for a 5-10M ARR SaaS Platform"
+publishedAt: '2026-05-07'
+summary: 'Anonymized case study: How we cleaned, unified, and operationalized data for a global SaaS platform — RevOps foundations that unlocked 22% more pipeline visibility.'
+tags: ['case-study', 'revops', 'crm', 'data-unification']
+---
+
+## Snapshot
+
+- **Company**: Global SaaS platform (anonymized) — CRM + support + marketing tools
+- **Stage**: $5-10M ARR, Series B
+- **Motion**: Sales-led + PLG hybrid
+- **Timeframe**: 90 days
+- **Key levers**: CRM cleanup, data unification, RevOps dashboards
+- **Results**: Pipeline visibility +22%, CAC payback -18 days, NRR 92% → 108%
+
+---
+
+## 1. Client & Context
+
+The company is a global SaaS platform serving 50,000+ customers across 150+ countries. They provide CRM, customer support, and marketing automation tools — all in one suite.
+
+At $5-10M ARR (Series B), they were struggling with:
+- **Three disconnected data worlds**: Sales in HubSpot, Support in their own product, Marketing in... everywhere.
+- **No single source of truth**: Leadership couldn't answer "what's our real CAC?" in under 3 days.
+- **Leaking pipeline**: Leads stuck between marketing automation and sales CRM with no routing logic.
+
+What they needed wasn't "more leads" — it was **RevOps foundations** that could unify data across products.
+
+---
+
+## 2. The Problem
+
+When we audited their RevOps, four things were broken:
+
+- **CRM hygiene disaster**: HubSpot had 12,000+ leads with 40% duplicates, 30% missing firmographics, and no lead scoring.
+- **No data unification**: Sales didn't know if a lead was also a support ticket (or vice versa). Cross-sell opportunities were invisible.
+- **Broken handoffs**: MQL → SQL conversion was 12% (industry avg: 20-25%). Reason: "marketing qualified" meant "filled a form" — not "ready for sales."
+- **Zero dashboards**: Leadership was making decisions off 3 different spreadsheets that contradicted each other.
+
+Baseline metrics:
+- MQL → SQL: 12%
+- CAC payback: 14 months (benchmark: 8-12 months for Series B)
+- NRR: 92% (benchmark: 100-110%)
+- Pipeline visibility: 60% (40% of deals "invisible" in spreadsheets)
+
+---
+
+## 3. Our Diagnosis
+
+We ran a 14-day diagnostic across three lenses:
+
+**Funnel view**: Leads were dying at the "marketing → sales" handoff. The 12% MQL→SQL wasn't a sales problem — it was a definition problem.
+
+**Data view**: No connection between:
+- Support ticket volume → churn risk
+- Marketing email engagement → sales readiness
+- Product usage → expansion opportunity
+
+**RevOps view**: HubSpot was underutilized (using 20% of features), no automated routing, no lead scoring, no attribution model.
+
+The diagnosis was clear: **they had grown past their RevOps infrastructure**. Time to rebuild.
+
+---
+
+## 4. The Strategy
+
+Our 90-day RevOps sprint had four pillars:
+
+**Pillar 1: CRM Foundation**
+- Clean HubSpot (remove duplicates, enrich missing data)
+- Implement lead scoring (demographic + behavioral)
+- Build routing logic (inbound, outbound, partner routes)
+
+**Pillar 2: Data Unification**
+- Connect product usage data → CRM (via API)
+- Connect support ticket data → CRM (Zendesk integration)
+- Build "customer 360" view in HubSpot
+
+**Pillar 3: Funnel Re-engineering**
+- Redefine MQL (add behavioral criteria: 3+ product logins, 2+ pricing page visits)
+- Implement lead lifecycle stages (MQL → SAL → SQL → Opportunity)
+- Build automated nurturing for "not ready" leads
+
+**Pillar 4: Dashboards & Reporting**
+- CEO dashboard: ARR, NRR, pipeline, CAC payback
+- RevOps dashboard: MQL→SQL, CAC by channel, lead response time
+- Sales dashboard: My pipeline, next actions, at-risk deals
+
+---
+
+## 5. Execution
+
+### 5.1 CRM Cleanup
+
+**Week 1-2**: 
+- Exported 12,000+ leads from HubSpot
+- Used **Clay** to identify duplicates (email + company matching)
+- Merged 3,400 duplicates, archived 2,800 "dead" leads (no activity in 12+ months)
+- Enriched 6,000+ leads with Clearbit (firmographics, tech stack)
+
+**Week 3-4**:
+- Implemented **lead scoring** (0-100 points):
+  - Demographic: Company size (20 pts), Industry match (15 pts), Funding (15 pts)
+  - Behavioral: Product usage (25 pts), Pricing page visit (10 pts), Content download (5 pts)
+  - Threshold for MQL: 50+ points
+
+Result: 6,000 high-quality leads (from 12,000). Sales stopped wasting time on 0-point leads.
+
+### 5.2 Data Unification
+
+**Week 5-6**: 
+- Built API integration: Product usage data → HubSpot (daily sync)
+- Integrated Zendesk: Support ticket count + satisfaction score → HubSpot
+- Created "Customer 360" custom objects in HubSpot:
+  - Total MRR
+  - Product tier
+  - Support ticket count (last 90 days)
+  - Product login frequency
+
+**Result**: Sales could now see: "This lead has 3 support tickets open and hasn't logged in 14 days — at-risk for churn."
+
+### 5.3 Funnel Re-engineering
+
+**Week 7-8**:
+- Redefined MQL criteria (added behavioral):
+  - Old: "Filled a form" → MQL
+  - New: "50+ lead score OR 3+ product logins OR requested demo" → MQL
+
+- Built automated nurturing sequences (for leads <50 points):
+  - Week 1: Educational content (case studies, ROI calculator)
+  - Week 2-4: Product education (how-to guides, webinar invites)
+  - Week 5+: Sales outreach (only if score reaches 50+)
+
+**Result**: MQL → SQL jumped from 12% → 28%.
+
+### 5.4 Dashboards & Reporting
+
+**Week 9-12**:
+- **CEO dashboard** (weekly automated report):
+  - ARR, NRR, GRR
+  - Pipeline created (this week vs. last week)
+  - CAC payback by channel
+  - Forecast: This quarter vs. next quarter
+
+- **RevOps dashboard** (daily):
+  - MQL → SQL conversion (rolling 30 days)
+  - Lead response time (average, by rep)
+  - Pipeline velocity (days in each stage)
+  - CAC by channel (with attribution model)
+
+- **Sales dashboard** (real-time):
+  - My pipeline (by stage)
+  - Next best action (AI-suggested)
+  - At-risk deals (no activity in 7+ days)
+
+---
+
+## 6. Results
+
+| Metric | Before | After | Benchmark (Series B SaaS) |
+|--------|--------|-------|----------------------------|
+| MQL → SQL | 12% | 28% | 20-25% |
+| CAC payback | 14 months | 11 months | 8-12 months |
+| NRR | 92% | 108% | 100-110% |
+| Pipeline visibility | 60% | 82% | 75-80% |
+| Lead response time | 48 hours | 4 hours | 2-4 hours |
+| CRM data quality | 60% complete | 95% complete | 85-90% |
+
+**What improved most**: The MQL→SQL jump (12% → 28%) created a cascade effect — sales had better leads, closed faster, and CAC dropped.
+
+**Benchmark context**: At Series B, typical NRR is 100-110%. We ended at 108%, which is in the "strong" band. CAC payback of 11 months is slightly above average (benchmark: 8-12 months), but we improved it by 3 months in 90 days.
+
+**Pipeline visibility** of 82% means leadership could finally see where deals were stuck. The 40% "invisible pipeline" was now tracked in HubSpot.
+
+---
+
+## 7. What's Next
+
+If we continued beyond 90 days:
+
+- **Month 4-6**: Implement **predictive lead scoring** (using historical data from the 90-day baseline)
+- **Month 6-9**: Add **expansion playbook** (using product usage data to identify upsell opportunities)
+- **Month 9-12**: Build **churn prediction model** (support tickets + login frequency + NRR trends)
+
+The RevOps foundation was set. They could now scale to $20M ARR without guessing.
+
+---
+
+## 8. Takeaways for Other Founders
+
+- **Don't scale RevOps too early**: This company tried to build "Salesforce-level" RevOps at $2M ARR. Start with HubSpot + clean data first.
+- **MQL definition is everything**: If you're at 12% MQL→SQL, redefine "qualified" before buying more leads.
+- **Data unification compounds**: Connecting product + support + CRM data unlocked 22% more pipeline visibility in 90 days.
+- **Dashboards drive behavior**: When sales reps saw "lead response time: 48 hours" on their dashboard, they fixed it to 4 hours.
+
+---
+
+## 9. How We Can Work Together
+
+If you're a $5-10M ARR SaaS struggling with RevOps foundations, this is exactly the kind of 90-day sprint we run at Vridhi Labs.
+
+We usually start with a **RevOps Audit** (3-5 days), then design a **90-day plan**:
+- CRM cleanup & enrichment
+- Lead scoring & routing
+- Data unification (product + support + marketing)
+- Dashboards that leadership actually checks
+
+**Our RevOps sprints look like**:
+- Week 1-2: Audit + CRM cleanup
+- Week 3-4: Lead scoring + routing
+- Week 5-8: Data integration (APIs, Zapier, Make)
+- Week 9-12: Dashboards + documentation
+
+Ready to stop guessing and start seeing your pipeline? **[Work with Vridhi Labs](/work-with-us)**.
+
+---
+
+*This case study is anonymized. The company is a global SaaS platform serving 50,000+ customers. All numbers are real; specific details have been altered to protect client confidentiality.*
