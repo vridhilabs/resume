@@ -15,13 +15,10 @@ export default function GrowthPage() {
   return (
     <section>
       <h1 className="font-semibold text-3xl tracking-tighter mb-4">
-        Growth Systems
+        Growth Marketing Notes
       </h1>
       <p className="mb-2 text-lg text-neutral-700 dark:text-neutral-300">
         Growth loops, cold outbound, PLG experiments, and acquisition channels.
-      </p>
-      <p className="mb-8 text-neutral-600 dark:text-neutral-400">
-        Systems and playbooks for B2B SaaS teams who want more revenue per experiment.
       </p>
 
       <div className="mb-8">
