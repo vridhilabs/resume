@@ -10,7 +10,10 @@ export default function HyperElectricPage() {
           HyperElectric: building GTM systems for EV fleet growth
         </h1>
         <p className="text-lg text-neutral-700 dark:text-neutral-300">
-          Worked across rider onboarding, vendor partnerships, franchise pipeline, investor communications, and GTM operations for an EV mobility business. The work sat between growth execution, operational clarity, and business narrative.
+          Owned full GTM for an EV mobility business: defined ICP and messaging for 3 buyer types (riders, vendors, franchisees), designed onboarding flows, enabled vendor partnerships (Zepto/Swiggy/BigBasket), built franchise pipeline, and managed investor communications. Full GTM motion operational across all segments.
+        </p>
+        <p className="text-sm text-neutral-600 dark:text-neutral-400 mt-4">
+          Role: GTM Engineer (Independent) | Duration: 2023–2024
         </p>
       </div>
 

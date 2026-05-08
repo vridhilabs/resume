@@ -1,42 +1,85 @@
-# Portfolio Blog Starter
+# Sai Rahul Talluri's GTM/RevOps/PMM Portfolio
 
-This is a porfolio site template complete with a blog. Includes:
+This is a personal portfolio site showcasing expertise in GTM strategy, RevOps infrastructure, outbound systems, product marketing, and demand generation for B2B SaaS and high-growth companies.
 
-- MDX and Markdown support
-- Optimized for SEO (sitemap, robots, JSON-LD schema)
-- RSS Feed
-- Dynamic OG images
-- Syntax highlighting
-- Tailwind v4
-- Vercel Speed Insights / Web Analytics
+## Site Overview
+
+The site has been optimized for job applications in GTM, RevOps, PMM, and Growth Marketing roles with:
+
+- **Role-targeted messaging**: Clear positioning as GTM Engineer, RevOps Manager, Product Marketing Manager, and Growth Marketing Lead
+- **Impact-focused metrics**: Reframed as business outcomes (pipeline contribution, revenue influence)
+- **Role-specific case studies**: Including a detailed PMM breakdown of HyperElectric work
+- **Skills section**: ATS-friendly keywords for recruiter screening
+- **Experience timeline**: Clear dates and roles for legitimacy
+- **Downloadable resume**: PDF version available
+- **Call-to-action**: Direct hiring pathways (Calendly, email)
+
+## Key Sections
+
+### Homepage (`/`)
+- Hero section with role targeting and value proposition
+- Proof points showing operating leverage (50K accounts/month, 500 MQLs/month, 3x inbound growth)
+- "Where I've Worked" strip with timeline
+- Selected work showcase with role tags
+- Field notes preview
+
+### Resume (`/resume`)
+- Operator profile with clear role targeting
+- Downloadable PDF CTA
+- Experience with dates and accomplishments
+- Skills/tools section with ATS keywords
+- Target roles section
+
+### Portfolio (`/portfolio`)
+- Case studies with role tags ([GTM], [RevOps], [PMM], [Outbound], [Demand Gen])
+- Experience timeline
+- Visual filtering by role type
+
+### Profiles (`/profiles`)
+- Detailed narratives for different marketing operator archetypes
+- How hiring managers use these profiles
+- Links to relevant case studies and resume sections
+
+### Case Studies
+- HyperElectric: End-to-end GTM for EV mobility business
+- Outbound Systems Engine: Clay-powered 50K accounts/month
+- First 100 Customers Playbook: Zero-budget GTM strategy
+- Compounding Growth Systems: Self-reinforcing growth loops
+- HyperElectric PMM Breakdown: ICP definition, messaging, positioning, enablement
+
+## Technology Stack
+
+- Next.js 16.0.10 (Turbopack)
+- Tailwind CSS v4
+- MDX for blog content
+- Vercel for deployment
 - Geist font
+- Vercel Speed Insights & Analytics
 
-## Demo
-
-https://portfolio-blog-starter.vercel.app
-
-## How to Use
-
-You can choose from one of the following two methods to use this repository:
-
-### One-Click Deploy
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/blog&project-name=blog&repository-name=blog)
-
-### Clone and Deploy
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
+## Local Development
 
 ```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/solutions/blog blog
-```
+# Install dependencies
+pnpm install
 
-Then, run Next.js in development mode:
-
-```bash
+# Run development server
 pnpm dev
+
+# Build for production
+pnpm build
+
+# Preview production build
+pnpm start
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/templates) ([Documentation](https://nextjs.org/docs/app/building-your-application/deploying)).
+## Deployment
+
+The site is deployed to Vercel at: https://resume-3av3n0l5x-rahuls-projects-e92b16c9.vercel.app
+
+## Contributing
+
+This is a personal portfolio site. For suggestions or corrections, please open an issue or submit a pull request.
+
+## License
+
+MIT

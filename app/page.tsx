@@ -7,13 +7,16 @@ export default function Page() {
       {/* Hero */}
       <div className="mb-12">
         <p className="text-sm text-neutral-500 dark:text-neutral-400 uppercase tracking-wider mb-3">
-          GTM Engineer • Growth Operator • RevOps Builder
+          GTM Engineer • RevOps Manager • Product Marketing • Growth
         </p>
         <h1 className="font-semibold text-3xl tracking-tighter mb-4">
           Sai Rahul Talluri
         </h1>
         <p className="text-lg text-neutral-700 dark:text-neutral-300 mb-2">
           Building GTM systems, outbound infrastructure, and revenue operations for SaaS, commerce, and EV businesses. Focused on execution-first growth with proven systems in outbound automation, lifecycle design, and partner enablement.
+        </p>
+        <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
+          Open to full-time GTM, RevOps, PMM, and Growth Marketing roles at B2B SaaS companies
         </p>
         <div className="flex gap-4 mt-6">
           <a href="/resume" className="text-sm underline hover:text-neutral-600 dark:hover:text-neutral-200">
@@ -33,21 +36,31 @@ export default function Page() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <p className="text-neutral-900 dark:text-neutral-100 font-medium">50K</p>
-            <p className="text-sm text-neutral-600 dark:text-neutral-400">prospect records processed monthly</p>
+            <p className="text-sm text-neutral-600 dark:text-neutral-400">prospect accounts targeted monthly via Clay enrichment + outbound, contributing to pipeline growth</p>
           </div>
           <div>
             <p className="text-neutral-900 dark:text-neutral-100 font-medium">500</p>
-            <p className="text-sm text-neutral-600 dark:text-neutral-400">MQLs generated per month</p>
+            <p className="text-sm text-neutral-600 dark:text-neutral-400">MQLs/month generated through LinkedIn + HubSpot/Marketo</p>
           </div>
           <div>
             <p className="text-neutral-900 dark:text-neutral-100 font-medium">3x</p>
-            <p className="text-sm text-neutral-600 dark:text-neutral-400">inbound lead growth achieved</p>
+            <p className="text-sm text-neutral-600 dark:text-neutral-400">inbound lead growth over 6 years via content syndication + paid social</p>
           </div>
           <div>
             <p className="text-neutral-900 dark:text-neutral-100 font-medium">HyperElectric</p>
-            <p className="text-sm text-neutral-600 dark:text-neutral-400">EV fleet GTM: rider onboarding, vendor comms, franchise pipeline</p>
+            <p className="text-sm text-neutral-600 dark:text-neutral-400">rider onboarding → vendor partnerships (Zepto/Swiggy/BigBasket) → franchise pipeline → investor comms</p>
           </div>
         </div>
+      </div>
+
+      {/* Where I've Worked Strip */}
+      <div className="mb-12 p-4 bg-neutral-50 dark:bg-neutral-900 rounded-lg">
+        <h2 className="text-sm font-semibold uppercase tracking-wider text-neutral-500 dark:text-neutral-400 mb-2">
+          Where I've worked
+        </h2>
+        <p className="text-neutral-600 dark:text-neutral-400 text-sm">
+          GTM Engineer (Independent) 2023–Present  |  MediaMint 2021–2023  |  Techtonic 2014–2020
+        </p>
       </div>
 
       {/* About */}
@@ -59,6 +72,19 @@ export default function Page() {
           </p>
           <p>
             My work sits in the execution layer where strategy meets operations: outbound systems that scale, lifecycle thinking that retains, RevOps foundations that align, and market intelligence that informs. I work across SaaS, commerce, EV mobility, and AI-native environments.
+          </p>
+          <p className="mt-4">
+            What I bring to a team:
+            <br className="hidden sm:inline" />
+            → GTM strategy + execution (not just one)
+            <br className="hidden sm:inline" />
+            → Outbound infrastructure built to scale
+            <br className="hidden sm:inline" />
+            → RevOps foundations: CRM logic, routing, attribution
+            <br className="hidden sm:inline" />
+            → Product marketing: positioning, messaging, enablement
+            <br className="hidden sm:inline" />
+            → AI-native workflows that multiply output without adding headcount
           </p>
         </div>
       </div>
