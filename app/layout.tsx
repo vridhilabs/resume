@@ -11,15 +11,15 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Vridhi Labs - Growth Marketing Wiki',
-    template: '%s | Vridhi Labs',
+    default: 'Sai Rahul Talluri — GTM Engineer & RevOps Portfolio',
+    template: '%s | Sai Rahul Talluri',
   },
-  description: 'Practical GTM strategies, growth tactics, and product marketing insights for founders and marketers.',
+  description: 'GTM systems, growth operations, RevOps, and market intelligence. Founder-operator building outbound engines, lifecycle systems, and execution infrastructure for SaaS, commerce, and EV businesses.',
   openGraph: {
-    title: 'Vridhi Labs - Growth Marketing Wiki',
-    description: 'Practical GTM strategies, growth tactics, and product marketing insights for founders and marketers.',
+    title: 'Sai Rahul Talluri — GTM Engineer & RevOps Portfolio',
+    description: 'GTM systems, growth operations, RevOps, and market intelligence. I build outbound engines, lifecycle systems, and execution infrastructure.',
     url: baseUrl,
-    siteName: 'Vridhi Labs',
+    siteName: 'Sai Rahul Portfolio',
     locale: 'en_US',
     type: 'website',
   },
@@ -52,7 +52,7 @@ export default function RootLayout({
         GeistMono.variable
       )}
     >
-      <body className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto">
+      <body className="antialiased max-w-3xl mx-4 mt-8 lg:mx-auto">
         <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
           <Navbar />
           {children}
