@@ -1,4 +1,4 @@
-# Vridhi Labs Blog Roadmap
+# growth marketing blog Roadmap
 
 Marketing wiki-style content for founders, marketers, and agency owners.
 
