@@ -1,8 +1,8 @@
 import { BlogPosts } from 'app/components/posts'
 
 export const metadata = {
-  title: 'Vridhi Labs Blog',
-  description: 'AI-powered growth marketing insights, GTM strategies, and autonomous agent capabilities.',
+  title: 'Growth Marketing',
+  description: 'Growth marketing, GTM strategies, and autonomous agent Notes.',
 }
 
 export default function Page() {
