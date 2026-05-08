@@ -11,7 +11,7 @@ const navItems = {
     name: 'resume',
   },
   '/blog': {
-    name: 'growth marketing notes',
+    name: 'growth marketing blog',
   },
 }
 
