@@ -73,18 +73,7 @@ export default function GTMPage() {
         </div>
       </div>
 
-      <div className="p-6 bg-neutral-50 dark:bg-neutral-900 rounded-lg">
-        <h3 className="font-semibold text-lg mb-2">Work with Vridhi Labs</h3>
-        <p className="text-sm text-neutral-600 dark:text-neutral-400 mb-4">
-          We design and run GTM systems that turn content and outbound into qualified pipeline in 90 days.
-        </p>
-        <Link 
-          href="/work-with-us"
-          className="inline-block px-5 py-2.5 bg-neutral-900 dark:bg-neutral-100 text-white dark:text-neutral-900 rounded-lg font-medium hover:opacity-80 transition-opacity"
-        >
-          Hire Us for GTM & Product
-        </Link>
-      </div>
+  
     </section>
   )
 }
